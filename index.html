@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex">
+    <form action="https://enw7u145b8im9.x.pipedream.net/" method="post">
+        <h1>SURVEY FORM</h1>
+        <fieldset>
+            <legend><b>Name</b></legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="first_name">First Name </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="text" name="first_name" id="first_name" class="name" required>
+                    </td>
+                </tr> 
+                <tr>
+                    <th>
+                        <label for="last_name">Last Name </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="text" name="last_name" id="last_name" class="name" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Address</b></legend>
+            <table>
+                <tr>
+                    <th>
+                        <label for="street_address">Street </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="text" name="street_address" id="street_address" class="address" required>
+                    </td>
+                </tr> 
+                <tr>
+                    <th>
+                        <label for="city">City </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="text" name="city" id="city" class="address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pincode">Pincode </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="number" name="pincode" id="pincode" class="address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="state">State </label>
+                    </th>
+                    <td>
+                        <b>&colon;&nbsp;</b>
+                        <input type="text" name="state" id="state" class="address" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <table>
+                <tr>
+                    <td>
+                        <label for="contact_number"><b>Contact Number</b></label>
+                        <b>&colon;&nbsp;</b>
+                        <input type="number" name="contact_number" id="contact_number" class="contact" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+
+        <fieldset>
+            <legend><b>Rating</b></legend>
+            <table>
+                <tr>
+                    <td class="rating" width="250px"></td>
+                    <td width="20px"></td>
+                    <td class="rating" width="90px">Excellent</td>
+                    <td class="rating" width="80px">Good</td>
+                    <td class="rating" width="80px">Bad</td>
+                </tr> 
+                <tr>
+                    <th class="rating">Quality of products received</th>
+                    <td><b>&colon;&nbsp;</b></td>
+                    <td>
+                        <input type="radio" name="quality_of_products_received_rating" id="quality_of_products_received_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="quality_of_products_received_rating" id="quality_of_products_received_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="quality_of_products_received_rating" id="quality_of_products_received_rating" class="rating" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="rating">Delivery</th>
+                    <td><b>&colon;&nbsp;</b></td>
+                    <td>
+                        <input type="radio" name="delivery_rating" id="delivery_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery_rating" id="delivery_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="delivery_rating" id="delivery_rating" class="rating" required>
+                    </td>
+                </tr>
+                <tr>
+                    <th class="rating">Value for money</th>
+                    <td><b>&colon;&nbsp;</b></td>
+                    <td>
+                        <input type="radio" name="value_for_money_rating" id="value_for_money_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="value_for_money_rating" id="value_for_money_rating" class="rating" required>
+                    </td>
+                    <td>
+                        <input type="radio" name="value_for_money_rating" id="value_for_money_rating" class="rating" required>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+        <br><br>
+
+        <div class="button">
+            <input type="submit" name="submit" id="submit">
+        </div>
+
+    </form>   
+    </div>
+</body>
+</html>
